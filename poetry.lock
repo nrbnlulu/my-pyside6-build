@@ -1,0 +1,57 @@
+[[package]]
+name = "PySide6"
+version = "6.3.1"
+description = "Python bindings for the Qt cross-platform application and UI framework"
+category = "main"
+optional = false
+python-versions = ">=3.6, <3.11"
+
+[package.dependencies]
+shiboken6 = "6.3.1"
+
+[package.source]
+type = "file"
+url = "PySide6-6.3.1-6.3.1-cp310-cp310-linux_x86_64.whl"
+
+[[package]]
+name = "shiboken6"
+version = "6.3.1"
+description = "Python / C++ bindings helper module"
+category = "main"
+optional = false
+python-versions = ">=3.6, <3.11"
+
+[package.source]
+type = "file"
+url = "shiboken6-6.3.1-6.3.1-cp310-cp310-linux_x86_64.whl"
+
+[[package]]
+name = "shiboken6-generator"
+version = "6.3.1"
+description = "Python / C++ bindings generator"
+category = "main"
+optional = false
+python-versions = ">=3.6, <3.11"
+
+[package.dependencies]
+shiboken6 = "6.3.1"
+
+[package.source]
+type = "file"
+url = "shiboken6_generator-6.3.1-6.3.1-cp310-cp310-linux_x86_64.whl"
+
+[metadata]
+lock-version = "1.1"
+python-versions = ">=3.10,<3.11"
+content-hash = "6d1c77b7edc3128aa0a519235c159edf83603e59ad729c79a0a47fae28164fd8"
+
+[metadata.files]
+PySide6 = [
+    {file = "PySide6-6.3.1-6.3.1-cp310-cp310-linux_x86_64.whl", hash = "sha256:875c6b2fb42b147622de7fedc744defe4968a84bc5d6c7a158fd369c4c754e32"},
+]
+shiboken6 = [
+    {file = "shiboken6-6.3.1-6.3.1-cp310-cp310-linux_x86_64.whl", hash = "sha256:7b83df76af860a3c05ea569f4bea5431fe2b9f8c6bc3d3c3556b5569d3128107"},
+]
+shiboken6-generator = [
+    {file = "shiboken6_generator-6.3.1-6.3.1-cp310-cp310-linux_x86_64.whl", hash = "sha256:9c038994b790b4af947296583befd5cf4a11117fb28b476049838d0913789006"},
+]
