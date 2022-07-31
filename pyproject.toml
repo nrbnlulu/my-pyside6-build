@@ -4,7 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["Nir <88795475+nrbnlulu@users.noreply.github.com>"]
 packages = [
-    { include = "__dummy__" }
+    { include = "dummy" }
 ]
 [tool.poetry.dependencies]
 python = ">=3.10,<3.11"
