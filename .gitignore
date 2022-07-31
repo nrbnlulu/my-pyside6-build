@@ -1,0 +1,5 @@
+pyside-setup 
+libclang-*
+libclang
+.vscode
+venv
