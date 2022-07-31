@@ -3,3 +3,4 @@ libclang-*
 libclang
 .vscode
 venv
+dist
